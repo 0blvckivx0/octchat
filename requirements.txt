@@ -1,0 +1,8 @@
+aiohttp
+pynacl
+pyperclip
+cryptography
+aiohttp
+cryptography
+pynacl
+pyperclip

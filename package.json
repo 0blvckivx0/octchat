@@ -1,0 +1,23 @@
+{
+  "name": "octchat",
+  "version": "1.0.0",
+  "description": "Octchat – Built for the Octra Ecosystem",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd client && npm run dev",
+    "server": "node server/index.js",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
