@@ -1,6 +1,6 @@
 # octrachat test
 
-a terminal wallet reminiscent of dos-era tui interfaces — but built with modern asynchronous architecture
+a privacy messenger portal built on octra's homographic chain/terminal wallet - modern asynchronous architecture
 
 ## what it does
 - private chat via ephemeral key gen
